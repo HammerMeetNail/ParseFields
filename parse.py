@@ -58,8 +58,6 @@ def main():
     fixData()
     dictItems = parseTree()
     pdfText = open(TEXT, "w")
-    # for i in natsorted(dictItems):
-    #     pdfText.write(str(i) + ': ' + str(dictItems[i]) + '\n')
     for i in dictItems:
         pdfText.write(str(i) + ': ' + str(dictItems[i]) + '\n')
     pdfText.close()
