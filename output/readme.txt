@@ -1,0 +1,1 @@
+Extracted fields will be placed in this folder. 
